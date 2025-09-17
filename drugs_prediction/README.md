@@ -9,6 +9,9 @@ Using **Decision Tree Classifier**, the model analyzes features such as **age, s
 - Reduces the chance of **wrong prescriptions** and improves treatment effectiveness.  
 - Demonstrates the application of **machine learning in healthcare** for decision support systems.  
 
+### Dataset
+Get the Drugs dataset [here](https://www.kaggle.com/datasets/taranomtorabi/drug200).
+
 ### Techniques Used
 - **Decision Tree Classifier** (scikit-learn)  
 - Data Preprocessing & Feature Encoding  
@@ -18,10 +21,10 @@ Using **Decision Tree Classifier**, the model analyzes features such as **age, s
 git clone https://github.com/username/repo-name.git
 
 # Navigate to the project folder
-cd repo-name
+cd repo folder
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run Jupyter Notebook
-jupyter notebook notebooks/project_notebook.ipynb
+python -m notebook
