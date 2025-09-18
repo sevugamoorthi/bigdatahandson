@@ -16,7 +16,7 @@ By applying **regression techniques**, the model learns the relationship between
 - Model Training, Evaluation (R² Score, MAE, MSE, RMSE)    
 
 ### Dataset
-Get the Drugs dataset [here](https://www.kaggle.com/datasets/puxama/bostoncsv).
+Get the dataset [here](https://www.kaggle.com/datasets/puxama/bostoncsv).
 
 # Clone the repository
 git clone https://github.com/username/repo-name.git
