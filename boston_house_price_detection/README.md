@@ -1,21 +1,23 @@
-# 💊 Drug Classification using Machine Learning
+# 🏡 Boston House Price Prediction using Machine Learning
 
 ## 📌 Overview
-This project focuses on **predicting the type of drug prescribed to a patient based on their medical attributes**.  
-Using **Decision Tree Classifier**, the model analyzes features such as **age, sex, blood pressure (BP), cholesterol levels, and sodium-to-potassium ratio** to classify which drug is most suitable for a patient.  
+This project predicts the **median value of owner-occupied houses in the Boston area** based on various socio-economic and housing features.  
+By applying **regression techniques**, the model learns the relationship between input features (like crime rate, number of rooms, property tax rate) and house prices, allowing accurate price predictions for new data.  
 
 ### Why this project is important?
-- Helps in **personalized medicine** by suggesting the right drug for patients.  
-- Reduces the chance of **wrong prescriptions** and improves treatment effectiveness.  
-- Demonstrates the application of **machine learning in healthcare** for decision support systems.  
-
-### Dataset
-Get the Drugs dataset [here](https://www.kaggle.com/datasets/taranomtorabi/drug200).
+- Useful for **real estate companies** to estimate property prices.  
+- Helps **buyers and sellers** understand the fair market value of houses.  
+- Demonstrates the power of **machine learning regression models** in solving real-world problems.  
 
 ### Techniques Used
-- **Decision Tree Classifier** (scikit-learn)  
-- Data Preprocessing & Feature Encoding  
-- Model Training, Evaluation, and Visualization  
+- **Decision Tree Regressor** (scikit-learn)  
+- Data Preprocessing (handling missing values, normalization, feature scaling)  
+- Exploratory Data Analysis (EDA) to understand feature impact  
+- Model Training, Evaluation (R² Score, MAE, MSE, RMSE)  
+  
+
+### Dataset
+Get the Drugs dataset [here](https://www.kaggle.com/datasets/puxama/bostoncsv/data). 
 
 # Clone the repository
 git clone https://github.com/username/repo-name.git
